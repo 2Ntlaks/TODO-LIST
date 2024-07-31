@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <h1>TO DO LIST <br />TODAY</h1>
+    <form id="form">
+      <label for="input" class="visually-hidden">Enter your to do</label>
+      <input
+        type="text"
+        class="input"
+        id="input"
+        placeholder="Enter your to do"
+        autocomplete="off"
+      />
+      <ul class="todos" id="todos" aria-live="polite"></ul>
+    </form>
+    <small>
+      Tap to toggle complete <br />
+      Long press to delete todo
+    </small>
+    <button id="clearCompleted">Clear Completed Tasks</button>
+    <button id="toggleDarkMode">Toggle Dark Mode</button>
+    <footer>
+      <p>
+        Check out my
+        <a
+          href="https://master--ntlakaniphomgaguli.netlify.app/"
+          target="_blank"
+          >portfolio</a
+        >
+      </p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
