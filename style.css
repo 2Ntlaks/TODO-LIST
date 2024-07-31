@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -16,7 +17,7 @@ body {
 
 h1 {
   color: rgb(179, 131, 226);
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   opacity: 0.4;
   margin-bottom: 1rem;
@@ -125,6 +126,8 @@ body.dark-mode .input {
   background-color: #555;
   color: #fff;
 }
+
+/* Footer Styles */
 footer {
   margin-top: 2rem;
   padding: 1rem;
@@ -147,27 +150,27 @@ footer a:hover {
 /* Media Queries */
 @media (min-width: 600px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .input {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 1rem 2rem;
   }
 
   .todos li {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 1rem 2rem;
   }
 }
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .input {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 1rem 2rem;
   }
 

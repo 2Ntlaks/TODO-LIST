@@ -37,7 +37,6 @@ function addToDo(todo) {
       updateLS();
     });
 
-    // For mobile devices: handle touch events
     let touchTimer;
     todoElement.addEventListener("touchstart", (e) => {
       touchTimer = setTimeout(() => {
